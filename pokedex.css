@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 3em;
+    font-family: 'Tektur', cursive;
+    margin: 0 20% ;
+    padding: auto;
+    text-shadow: 2px 2px rgb(219, 212, 226);
+}
+
+.subtitulo{
+    font-size: 2em;
+    margin: 2% 25%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body{
+    background-image: url(https://images3.alphacoders.com/677/677583.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pokedex{
+    background-color: #001fcc;
+    height: 80%;
+    width: 90%;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: gap 10px;
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    
+}
+
+.poke_cell{
+    border: 3px solid black;
+    background-color: #CC0000;
+    margin: auto;
+    padding: 10px;
+    width:92%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+}
+
+.poke_cell img{
+    display: block;
+    max-width: 70vh;
+    min-height: auto ;
+    object-fit: contain;
+    align-self: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(5, 5, 202);
+    background-color: aliceblue;
+    border-radius: 5%;
+    margin: 2%; 
+}
+
+.poke_cell label{
+    margin: 3%;
+    font-weight: bold;
+    font-family: 'Tektur', cursive;
+    
+}
+
